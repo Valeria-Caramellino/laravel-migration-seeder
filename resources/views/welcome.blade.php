@@ -2,13 +2,12 @@
 
 @section('content')
 <div class="container my-3">
-    <h1>Welcome Page</h1>
+    <h1>Lista treni</h1>
     <div class="row g-4">
-        <div class="col">
             
             
             @foreach ($trains as $item)
-            <div class="card col-3 mx-4 my-2">
+            <div class="card col-3 mx-4 my-5">
                 <div class="card-body">
                     <h5 class="card-title">{{$item->azienda}}</h5>
                     <p class="card-text">Stazione di partenza:{{$item->stazione_partenza}}</p>
@@ -28,7 +27,7 @@
             @endforeach
                
             
-        </div>
+        
     </div>
 
 </div>
