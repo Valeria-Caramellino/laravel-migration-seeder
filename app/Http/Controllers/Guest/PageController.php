@@ -11,7 +11,7 @@ class PageController extends Controller
     public function index(){
         $links = config('store.someLinks');
 
-        $trains = Train::all();
+        $trains = Train::where('data_partenza', '2023-06-29')->get();
 
         return view('welcome', compact('links','trains'));  
     }

@@ -17,6 +17,7 @@
                     <p class="card-text">Num carrozze: {{$item->num_carrozze}} </p>
                     <p class="card-text">In orario: {{$item->in_orario}} </p>
                     <p class="card-text">In cancellazione: {{$item->cancellato}} </p>
+                    <p class="card-text">Data partenza: {{$item->data_partenza}}</p>
                     <div>
                             <a href="/" class="card-link">Card link</a>
                             <a href="/otherpage" class="card-link">Another link</a>
