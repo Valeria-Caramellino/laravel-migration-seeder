@@ -1,5 +1,5 @@
 @extends('layouts.app')
-
+@section('page-title','Pagina principale')
 @section('content')
 <div class="container my-3">
     <h1>Lista treni</h1>
